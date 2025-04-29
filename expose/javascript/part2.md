@@ -22,10 +22,10 @@
     F. 0, both are typecasted to 0, since addition converts it to integers
     G. '3undefined', since '3' is a string, we do string concatenation and typecast undefined into a string.
     H. NaN, since the minus sign tries to do arthimetic, it converts '3' into 3. However, since undefined is converted to NaN, the result will be NaN.
-14. A. 
-    B. 
-    C. 
-    D. 
-    E.
-    F.
+14. A. true
+    B. false
+    C. true
+    D. false
+    E. false
+    F. true
 15. 
