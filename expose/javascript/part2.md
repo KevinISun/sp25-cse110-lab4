@@ -22,10 +22,17 @@
     F. 0, both are typecasted to 0, since addition converts it to integers
     G. '3undefined', since '3' is a string, we do string concatenation and typecast undefined into a string.
     H. NaN, since the minus sign tries to do arthimetic, it converts '3' into 3. However, since undefined is converted to NaN, the result will be NaN.
-14. A. true
-    B. false
-    C. true
-    D. false
-    E. false
-    F. true
-15. 
+14. A. true, since we are comparing a number and a string, we convert the string into a number then compare
+    B. false, we start by comparing the two strings character by character, so '2' would be considered less than '1'.
+    C. true, we would typecast the '2' to an int, and then do the comparison.
+    D. false, we do not typecast since it is a strict comparison.
+    E. false,  we would typecast true to 1, and therefore it would return false
+    F. true, we typecast 2 to a boolean which would evaluate to true, and then the expression evaluates to true
+15. === is the strict equality, it will not do any typecasting automatically, and will evaluate to false automatically if they are of different types. == is loose equality, if two things being compared are of different types, then it will try to typecast them before comparing them.
+    
+17.  At the end, it will return [2, 4, 6]. We pass in the array, and the function doSomething. In modifyArray, iterate through each element of the array and then call doSomething on each element. In doSomething, we just return the num multiplied by two. We then return this new array with all of its values doubled.
+    
+19.   1
+      4
+      3
+      2
